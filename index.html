@@ -28,16 +28,16 @@
 
 <body class="font-manrope">
   <!-- Header Section Start -->
-  <header class="bg-gradient-to-b from-zinc-100 to-white h-screen">
+  <header class="bg-gradient-to-b from-zinc-100 to-white lg:container mx-auto">
     <!-- Nav Section Start -->
     <nav>
-      <div class="navbar ">
-        <div class="navbar-start">
+      <div class="navbar flex justify-between">
+        <div class="">
           <a class="font-black btn btn-ghost text-3xl "><span class="bg-[#ABEF5F] p-1.5 rounded-full"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-up-right" viewBox="0 0 16 16">
             <path fill-rule="evenodd" d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0z"/>
           </svg></span>Rinterio</a>
         </div>
-        <div class="navbar-center hidden lg:flex">
+        <div class="hidden lg:flex">
           <ul class="menu menu-horizontal px-1 text-[#737373]">
             <li class="text-[#494949] font-bold"><a>Home</a></li>
             <li><a>Services</a></li>
@@ -46,14 +46,15 @@
             <li><a>Contact Us</a></li>
           </ul>
         </div>
-        <div class="navbar-end">
-          <div><i class="fa-solid fa-magnifying-glass mr-4 bg-white p-3 rounded-full"></i></div>
-          <div><i class="fa-solid fa-cart-shopping mr-4 bg-white p-3 rounded-full"></i></div>
+        <div class="invisible md:visible lg:visible">
+          <a href="#"><i class="fa-solid fa-magnifying-glass mr-4 bg-white p-3 rounded-full"></i></a>
+          <a href="#"><i class="fa-solid fa-cart-shopping mr-4 bg-white p-3 rounded-full"></i></a>
           <a class="btn bg-[#ABEF5F] rounded-full font-black text-lg">Book Consult
             <span class="text-[#FFFFFF] p-1.5 bg-[#1C1C1C] rounded-full"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-up-right" viewBox="0 0 16 16">
               <path fill-rule="evenodd" d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0z"/>
             </svg></span></a>
         </div>
+        <a href="#"><i class="fa-solid fa-bars fa-xl bg-white p-5 rounded-full visible lg:hidden"></i></a>
       </div>
     </nav>
     <!-- Nav Section End -->
